@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>log in form</title>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+<body ng-app=" ">
+<p>First Name: <input type="text" ng-model="fname" ></p>
+<p>Last Name: <input type="text" ng-model="lname" ></p>
+<p>Email: <input type="text" ng-model="email" ></p>
+<p>Password: <input type="password" ng-model="password" ></p>
+<p ng-bind="fname"></p>
+<button>submit</button>
+
+</body>
+</html>
